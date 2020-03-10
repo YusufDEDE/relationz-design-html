@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("/assets/font/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Gilroy-light;
+  src: url("/assets/font/Gilroy-Light.otf") format("opentype");
+}
+
+.navbar-dark {
+  margin: 2%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #73738D;
+  font-family: Gilroy-light;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.0889px;
+  line-height: 23px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38.1183px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #222222;
+}
+
+#try {
+  border: 1.03958px solid #1943EF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 33.9597px;
+  margin: 2% 0% 0% 0%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-size: 12.0889px;
+}
+
+#form {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 50px;
+  /*you can remove this to avoid rounded corners on the form*/
+}
+
+#form-input {
+  width: 423.46px;
+  height: 41.58px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+  border-radius: 50px;
+  padding-left: 22px;
+}
+
+#form-try {
+  border: 1.03958px solid #1943EF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 33.9597px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-size: 12.0889px;
+}
+
+#content-text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50.1972px;
+  line-height: 49px;
+  color: #222222;
+}
+
+#content-text-desc {
+  font-family: Gilroy-light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.5542px;
+  line-height: 150%;
+  /* or 22px */
+  color: #73738D;
+}
+
+.navbar {
+  padding: 0% 8% 2% 7%;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */

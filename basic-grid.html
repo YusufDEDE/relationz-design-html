@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Grid System</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <!-- Top menu -->
@@ -16,7 +16,7 @@
 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			        <span class="navbar-toggler-icon"></span>
 			    </button>
-			    <div class="collapse navbar-collapse" id="navbarNav">
+			    <div class="collapse navbar-collapse" id="navbarNav" style="padding: 0% 6% 0% 0%;">
 			        <ul class="navbar-nav ml-auto">
 			            <li class="nav-item">
 			                <a class="nav-link scroll-link" href="#top-content">Services</a>
@@ -43,10 +43,10 @@
                  <h1 id="content-text" >Take your relationships to the next level</h1>
                  <p id="content-text-desc">The multichannel sales engagement platform which automates personal email outreach, calls, and tasks, while Sales can focus on what really matters - closing deals.</p>
                  <div class="input-group mb-3">
-                     <input type="text" class="form-control" placeholder="Email id" aria-label="Email id" aria-describedby="button-addon2">
-                     <div class="input-group-append">
-                       <button class="btn btn-primary text-white" type="button" id="button-addon2">Try it for free</button>
-                     </div>
+                    <form id="form">
+                        <input type="text" placeholder="Email id" id="form-input" />
+                        <button type="submit" class="btn btn-primary" id="form-try"/>Try it for free</button>
+                    </form>
                  </div>
                  <div class="form-check form-check-inline">
                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
@@ -61,33 +61,28 @@
                      <label class="form-check-label" for="inlineCheckbox3">The multichannel</label>
                    </div>
                    <div>
-                       <img src="/assets/vector/dots.png" alt="dots" id="dots" style="margin: -101% 1px 3px -17px;
+                       <img src="/assets/images/vector/dots.png" alt="dots" id="dots" style="margin: -86% 0px 0px -16px;
                        z-index: -2;
-                       position: relative;
-                       width: 10%;">
+                       width: 8%;
+                       position: relative;">
                    </div>
              </div>
             <div class="col-md-3" style="float:none;margin:auto;"">
-             <img src="./assets/img/phone.png" alt="iphone">
+             <img src="/assets/images/phone.png" alt="iphone">
              <div>
-                 
-                 <img src="/assets/vector/circle.png" alt="circle" id="circle" style="position: relative;
+                 <img src="/assets/images/vector/circle.png" alt="circle" id="circle" style="position: relative;
                  margin: -134px 0px 7px 191px;
                  z-index: -2;">
              </div>
              <div>
-                 <img src="/assets/vector/circle-outline.png" alt="circle-outline" id="circle-outline" style="position: relative;
+                 <img src="/assets/images/vector/circle-outline.png" alt="circle-outline" id="circle-outline" style="position: relative;
                  margin: -372% 0px 7px 11px;
                  z-index: -2;
              ">	
              </div>
-             
-               </div>
+            </div>
          </div>
-     
-         
      </div>            
     </div>
-    
 </body>
 </html>
