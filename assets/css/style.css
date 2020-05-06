@@ -43,6 +43,15 @@ h2 {
   color: #222222;
 }
 
+h4 {
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.6333px;
+  line-height: 20px;
+  color: #222222;
+}
+
 p {
   font-family: Gilroy-Medium;
   font-style: normal;
@@ -311,7 +320,6 @@ p {
   font-weight: 500;
   font-size: 14.5542px;
   line-height: 150%;
-  /* or 22px */
   color: #73738D;
 }
 
@@ -332,5 +340,60 @@ p {
 
 .remembers #checkbox-remembers .follow {
   margin-top: 20px;
+}
+
+.remembers .profile-card {
+  width: 352.07px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 13.8611px 55.4444px #F2F5FA !important;
+          box-shadow: 0px 13.8611px 55.4444px #F2F5FA !important;
+  border-radius: 20.7917px !important;
+}
+
+.remembers .profile-card .profile-area {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 13px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.remembers .profile-card .profile-info {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.70278px;
+  line-height: 11px;
+  color: rgba(34, 34, 34, 0.6);
+}
+
+.remembers .profile-card .info-text {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 120%;
+  /* identical to box height, or 13px */
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.remembers .profile-card .info-text i {
+  color: #73738D;
+  opacity: 0.6;
+}
+
+.remembers .remembers-dots {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: -98px;
+  z-index: -1;
+}
+
+.remembers .remembers-circle {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -83px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
