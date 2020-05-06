@@ -61,6 +61,20 @@ p {
   color: #73738D;
 }
 
+.check i {
+  font-size: 13.24px;
+  color: #26C296;
+}
+
+.check span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  color: #73738D;
+}
+
 .container-fluid {
   width: 998px;
 }
@@ -126,34 +140,34 @@ p {
   color: #1943EF;
 }
 
-#welcome-page-header {
+.welcome-page #welcome-page-header {
   width: 429px;
 }
 
 @media (max-width: 425px) {
-  #welcome-page-header {
+  .welcome-page #welcome-page-header {
     width: auto;
   }
 }
 
-#welcome-page-header img {
+.welcome-page #welcome-page-header img {
   position: absolute;
   margin-left: -17px;
   margin-top: -11px;
   z-index: -1;
 }
 
-#welcome-page-desc {
+.welcome-page #welcome-page-desc {
   width: 429px;
 }
 
 @media (max-width: 425px) {
-  #welcome-page-desc {
+  .welcome-page #welcome-page-desc {
     width: auto;
   }
 }
 
-.wp-checked-text {
+.welcome-page .wp-checked-text {
   font-family: Gilroy-Medium;
   font-style: normal;
   font-weight: 500;
@@ -163,12 +177,12 @@ p {
   color: #73738D;
 }
 
-.wp-checked-text i {
+.welcome-page .wp-checked-text i {
   font-size: 9px;
   color: #73738D;
 }
 
-#welcome-page-form {
+.welcome-page #welcome-page-form {
   width: 80%;
   height: 41.58px;
   display: -webkit-box;
@@ -185,12 +199,12 @@ p {
 }
 
 @media (max-width: 425px) {
-  #welcome-page-form {
+  .welcome-page #welcome-page-form {
     width: auto;
   }
 }
 
-#welcome-page-form input {
+.welcome-page #welcome-page-form input {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
@@ -205,7 +219,7 @@ p {
   color: rgba(115, 115, 141, 0.6);
 }
 
-#welcome-page-form button {
+.welcome-page #welcome-page-form button {
   background-color: #1943EF;
   border-radius: 33.9597px;
   border-color: transparent;
@@ -220,7 +234,7 @@ p {
   padding-left: 43px;
 }
 
-.smartPhone {
+.welcome-page .smartPhone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,20 +248,20 @@ p {
 }
 
 @media (max-width: 425px) {
-  .smartPhone {
+  .welcome-page .smartPhone {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-.smartPhone .circle-outline-phone {
+.welcome-page .smartPhone .circle-outline-phone {
   margin-bottom: -40px;
   margin-left: 58px;
   z-index: -1;
 }
 
-.smartPhone .circle-phone {
+.welcome-page .smartPhone .circle-phone {
   margin-top: -55px;
   margin-right: 55px;
   z-index: -1;
@@ -395,5 +409,68 @@ p {
   margin-left: 150px;
   margin-top: -83px;
   z-index: -1;
+}
+
+.stay-connected h4 i {
+  font-size: 12px;
+  float: right;
+  opacity: 0.4;
+  margin-top: 12px;
+}
+
+.stay-connected .sc-circle {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.stay-connected .send-connect {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 13.8611px 55.4444px #F2F5FA !important;
+          box-shadow: 0px 13.8611px 55.4444px #F2F5FA !important;
+  border-radius: 20.7917px !important;
+}
+
+.stay-connected .sc-desc {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 13px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.stay-connected .sc-senddingTo {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.70278px;
+  line-height: 11px;
+  color: rgba(34, 34, 34, 0.6);
+}
+
+.stay-connected .mini-profile span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 13px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.stay-connected .sc-rectangle {
+  background: #FBFBFD;
+  border-radius: 5.54444px;
+  width: 346.17px;
+}
+
+.stay-connected .sc-rectangle p {
+  width: 307.17px;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.70278px;
+  line-height: 180%;
+  color: rgba(115, 115, 141, 0.8);
 }
 /*# sourceMappingURL=style.css.map */
