@@ -1,0 +1,24 @@
+{
+    "name": "relationz-design-html",
+    "version": "1.0.0",
+    "description": "realtionz design",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YusufDEDE/relationz-design-html.git"
+    },
+    "author": "Yusuf Dede",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YusufDEDE/relationz-design-html/issues"
+    },
+    "homepage": "https://github.com/YusufDEDE/relationz-design-html#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "http": "0.0.0",
+        "http-server": "^0.12.1"
+    }
+}
