@@ -27,6 +27,31 @@ body {
   background-color: white;
 }
 
+h1 {
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-size: 40.1972px;
+  line-height: 49px;
+  color: #222222;
+}
+
+h2 {
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-size: 24.95px;
+  line-height: 30px;
+  color: #222222;
+}
+
+p {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5542px;
+  line-height: 150%;
+  color: #73738D;
+}
+
 .container-fluid {
   width: 998px;
 }
@@ -68,8 +93,9 @@ body {
 }
 
 .try-it {
-  width: 160px;
+  width: 130px;
   height: 35.88px;
+  padding-top: 10px;
   border: 1.03958px solid #1943EF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -93,11 +119,6 @@ body {
 
 #welcome-page-header {
   width: 429px;
-  font-family: Gilroy-Bold;
-  font-style: normal;
-  font-size: 40.1972px;
-  line-height: 49px;
-  color: #222222;
 }
 
 @media (max-width: 425px) {
@@ -115,12 +136,6 @@ body {
 
 #welcome-page-desc {
   width: 429px;
-  font-family: Gilroy-Medium;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14.5542px;
-  line-height: 160%;
-  color: #73738D;
 }
 
 @media (max-width: 425px) {
@@ -227,5 +242,95 @@ body {
   margin-top: -55px;
   margin-right: 55px;
   z-index: -1;
+}
+
+.follow-up .follow-circle-bg {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -70px;
+}
+
+@media (max-width: 425px) {
+  .follow-up .follow-circle-bg {
+    display: none;
+  }
+}
+
+.follow-up p {
+  width: 343.06px;
+}
+
+.follow-up span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.follow-up .shadow {
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  .follow-up .shadow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center;
+  }
+}
+
+.follow-up #checkbox-followup i {
+  font-size: 13.24px;
+  color: #26C296;
+}
+
+.follow-up #checkbox-followup span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  /* identical to box height, or 17px */
+  color: #73738D;
+}
+
+.follow-up #checkbox-followup .follow {
+  margin-top: 20px;
+}
+
+.remembers .remembersDesc {
+  width: 343.06px;
+}
+
+.remembers .remembersDesc span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5542px;
+  line-height: 150%;
+  /* or 22px */
+  color: #73738D;
+}
+
+.remembers #checkbox-remembers i {
+  font-size: 13.24px;
+  color: #26C296;
+}
+
+.remembers #checkbox-remembers span {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  /* identical to box height, or 17px */
+  color: #73738D;
+}
+
+.remembers #checkbox-remembers .follow {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
