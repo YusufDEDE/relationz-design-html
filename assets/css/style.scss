@@ -517,6 +517,15 @@ p {
     box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
     border-radius: 8.31667px;
 
+    p {
+      font-family: Gilroy-Medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11.0889px;
+      line-height: 150%;
+      color: #73738D;
+    }
+
     button {
       background: #26C296;
       border-radius: 33.9597px;
@@ -532,6 +541,17 @@ p {
       /* identical to box height */
 
       color: #FFFFFF;
+    }
+  }
+
+  .footer-desc {
+    p {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11.0889px;
+      line-height: 13px;
+      color: #73738D;
     }
   }
 }

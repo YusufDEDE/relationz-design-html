@@ -509,6 +509,15 @@ p {
   border-radius: 8.31667px;
 }
 
+.footer .footer-area p {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  color: #73738D;
+}
+
 .footer .footer-area button {
   background: #26C296;
   border-radius: 33.9597px;
@@ -522,5 +531,14 @@ p {
   line-height: 13px;
   /* identical to box height */
   color: #FFFFFF;
+}
+
+.footer .footer-desc p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 13px;
+  color: #73738D;
 }
 /*# sourceMappingURL=style.css.map */
