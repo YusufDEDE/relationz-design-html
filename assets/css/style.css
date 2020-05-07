@@ -541,4 +541,9 @@ p {
   line-height: 13px;
   color: #73738D;
 }
+
+.footer-half-circle {
+  float: right;
+  margin-top: -250px;
+}
 /*# sourceMappingURL=style.css.map */
