@@ -25,6 +25,9 @@
 
 body {
   background-color: white;
+  overflow-x: hidden;
+  height: 100%;
+  max-height: 100%;
 }
 
 // Headers
@@ -84,10 +87,6 @@ p {
 
 .container-fluid {
   width: 998px;
-
-  @media (max-width: 425px) {
-    width: auto;
-  }
 }
 
 // Navbar
@@ -483,6 +482,14 @@ p {
 // Section ourteam
 
 .ourteam {
+  .mobile-grid {
+    display: none;
+  }
+
+  .mobile-grid2 {
+    display: none;
+  }
+
   .ourteam-area {
     margin-top: -50px;
     width: 501.77px;

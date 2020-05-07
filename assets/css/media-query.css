@@ -1,0 +1,108 @@
+@media (max-width: 425px) {
+  html {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .container-fluid {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .follow-up .follow {
+    margin-top: 30px;
+  }
+  .follow-up #checkbox-followup td span {
+    margin-right: 30px;
+  }
+  .remembers img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .remembers .profile-card {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .stay-connected .star-image {
+    margin-top: 0 !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .stay-connected .check td span {
+    margin-right: 30px;
+  }
+  .ourteam h2 {
+    text-align: center;
+  }
+  .ourteam .web-grid {
+    display: none;
+  }
+  .ourteam p {
+    width: 100% !important;
+  }
+  .ourteam .mobile-grid {
+    display: contents;
+  }
+  .ourteam .mobile-grid .row-2-1png img {
+    margin-left: -16px;
+  }
+  .ourteam .mobile-grid .row-2-2png img {
+    margin-top: -43px;
+    padding-left: 30px;
+  }
+  .ourteam .mobile-grid .row-2-4png img {
+    margin-top: -80px;
+    margin-right: 32px;
+  }
+  .ourteam .mobile-grid .row-2-5png img {
+    margin-right: -18px;
+  }
+  .web-grid2 {
+    display: none;
+  }
+  .mobile-grid2 {
+    display: contents !important;
+  }
+  .mobile-grid2 .row-2-slidepng {
+    margin-left: 62px;
+    margin-top: 12px;
+  }
+  .mobile-grid2 .row-2-6png {
+    margin-left: -18px;
+    margin-top: -20px;
+  }
+  .mobile-grid2 .row-2-7png {
+    margin-right: -33px;
+    margin-top: -75px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .footer .footer-circle {
+    margin-left: -34px;
+  }
+  .footer .col-md-7 h2 {
+    margin-left: 20px;
+  }
+  .footer .col-md-7 p {
+    margin-left: 20px;
+  }
+  .footer button {
+    margin-left: 20px;
+  }
+  .footer .footer-desc-list {
+    margin-left: 115px;
+  }
+}
+
+@media (max-width: 320px) {
+  .follow-up p {
+    width: 100%;
+  }
+  .follow-up #checkbox-followup td span {
+    margin-right: 0;
+  }
+  .remembers .remembersDesc {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media-query.css.map */
