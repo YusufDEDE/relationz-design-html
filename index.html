@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Grid System</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/media-query.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -80,31 +81,26 @@
 
                     </div>
                     <div class="col-lg-5 col-md-5 col-xs-12 smartPhone">
-                        <div class="circle-outline-phone d-flex justify-content-start">
-                            <img src="/assets/images/vector/circle-outline.png" alt="">
-                        </div>
                         <div class="d-flex justify-content-center">
                             <img src="/assets/images/phone.png" alt="smartPhone">
-                        </div>
-                        <div class="circle-phone d-flex justify-content-end">
-                            <img src="/assets/images/vector/circle.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
-
-    <div class="row mb-3">
-        <div class="col">
-            <img src="/assets/images/vector/half-circle-bg.png" alt="">
+        <div class="row mb-3">
+            <div class="col d-flex justify-content-start" style="margin-left: -15px;">
+                <img src="/assets/images/vector/half-circle-bg.png" alt="">
+            </div>
+            <div class="col d-flex align-items-end">
+                <img src="/assets/images/vector/Rectangle.png">
+            </div>
         </div>
-        <div class="col d-flex align-items-end">
-            <img src="/assets/images/vector/Rectangle.png">
-        </div>
-    </div>
 
-    <div class="container-fluid">
+
+
+
+
         <section class="follow-up">
             <div class="container">
                 <img src="/assets/images/vector/circle-outline-bg.png" alt="" class="follow-circle-bg">
@@ -182,9 +178,9 @@
             </div>
         </section>
 
-        <section class="remembers mt-5">
+        <section class="remembers mt-lg-5">
             <div class="container">
-                <img src="/assets/images/vector/ryc.svg" alt="" class="mt-5 mb-4">
+                <img src="/assets/images/vector/ryc.svg" alt="" class="mt-lg-5 mb-lg-4">
                 <div class="row mt-2">
                     <div class="col-md-6">
                         <h2>Our sync remembers everything</h2>
@@ -250,14 +246,14 @@
             </div>
         </section>
 
-        <section class="stay-connected mt-5">
+        <section class="stay-connected mt-lg-5">
             <div class="container">
-                <div class="d-flex justify-content-center" style="margin-left: 80px; margin-top: 70px;">
+                <div class="d-flex justify-content-center star-image" style="margin-left: 80px; margin-top: 70px;">
                     <img src="/assets/images/vector/star.svg" alt="" class="mt-5 mb-2">
                 </div>
                 <div class="row">
                     <img src="/assets/images/vector/circle-orange.svg" alt="" class="sc-circle">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="send-connect mb-3 p-3 bg-white rounded">
                             <div class="media-body">
                                 <h4>Send content around anxiety <i class="fas fa-ellipsis-h"></i></h4>
@@ -284,7 +280,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6 p-3">
+                    <div class="col-lg-6 col-md-6 col-xs-12 p-3">
                         <h2>Stay connected in a few clicks</h2> <br>
                         <p>
                             The multichannel sales engagement platform which automates personal email outreach, calls,
@@ -318,57 +314,200 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </section>
 
-    </section>
-
-    <section class="ourteam mt-5">
-        <div class="container">
-            <div class="d-flex justify-content-center pt-3">
-                <h2>What our customers are saying</h2>
+        <section class="ourteam mt-5">
+            <div class="container">
+                <div class="d-flex justify-content-center pt-3">
+                    <h2>What our customers are saying</h2>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-start align-items-start pl-5">
-                <img src="/assets/images/ourteam/1.png" alt="">
-            </div>
-            <div class="col-md-6 d-flex justify-content-end align-items-start">
-                <img src="/assets/images/ourteam/5.png" alt="">
-            </div>
-        </div>
-        <div class="row" style="margin-top:-60px;">
-            <div class="col-md-3 d-flex justify-content-end align-items-start mt-2">
-                <img src="/assets/images/ourteam/2.png" alt="">
-            </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="/assets/images/ourteam/3.png" alt="">
-            </div>
-            <div class="col-md-3 d-flex justify-content-start align-items-start mb-5">
-                <img src="/assets/images/ourteam/4.png" alt="">
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <div class="ourteam-area d-flex flex-column justify-content-center align-items-center">
-                        <h4 class="mb-4">Michelle Johnson, Australia</h4>
-                        <img class="mb-2" src="/assets/images/vector/comma.svg" alt="">
-                        <p>The multichannel sales engagement platform which automates
-                            personal email outreach,
-                            calls, and tasks,
-                            while Sales can focus on what really matters - closing while Sales can focus on what really
-                            matters -
-                            closing</p>
-                        <img src="/assets/images/vector/sing.svg" alt="">
+            <div class="web-grid">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-start align-items-start pl-5">
+                        <img src="/assets/images/ourteam/1.png" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end align-items-start">
+                        <img src="/assets/images/ourteam/5.png" alt="">
+                    </div>
+                </div>
+                <div class="row" style="margin-top:-60px;">
+                    <div class="col-md-3 d-flex justify-content-end align-items-start mt-2">
+                        <img src="/assets/images/ourteam/2.png" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="/assets/images/ourteam/3.png" alt="">
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-start align-items-start mb-5">
+                        <img src="/assets/images/ourteam/4.png" alt="">
                     </div>
                 </div>
             </div>
-            <div style="height: 500px;">
 
+            <div class="mobile-grid">
+                <table class="w-100" border="0">
+                    <tr>
+                        <td>
+                            <div class="d-flex justify-content-start row-2-1png">
+                                <img src="/assets/images/ourteam/1.png" alt="">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td>
+                            <div class="d-flex justify-content-end row-2-5png">
+                                <img src=" /assets/images/ourteam/5.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex justify-content-center row-2-2png">
+                                <img src=" /assets/images/ourteam/2.png" alt="">
+                            </div>
+
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center row-2-3png">
+                                <img src="/assets/images/ourteam/3.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex justify-content-center row-2-4png">
+                                <img src="/assets/images/ourteam/4.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <div class="ourteam-area d-flex flex-column justify-content-center align-items-center">
+                            <h4 class="mb-4">Michelle Johnson, Australia</h4>
+                            <img class="mb-2" src="/assets/images/vector/comma.svg" alt="">
+                            <p>The multichannel sales engagement platform which automates
+                                personal email outreach,
+                                calls, and tasks,
+                                while Sales can focus on what really matters - closing while Sales can focus on what
+                                really
+                                matters -
+                                closing</p>
+                            <img src="/assets/images/vector/sing.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-grid2">
+                <table class="w-100">
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="d-flex justify-content-center row-2-slidepng">
+                                <img src="/assets/images/vector/slide.svg" alt="">
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex justify-content-start row-2-6png">
+                                <img src="/assets/images/ourteam/6.png" alt="">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td>
+                            <div class="d-flex justify-content-end row-2-7png">
+                                <img src="/assets/images/ourteam/7.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div style="height: 200px;" class="web-grid2">
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-start">
+                    <img src="/assets/images/ourteam/6.png" alt="" style="position: absolute;
+                margin-top: -110px;">
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/assets/images/vector/slide.svg" alt="" style="position: absolute;
+                margin-top: 30px;">
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <img src="/assets/images/ourteam/7.png" alt="" style="position: absolute;
+                margin-top: -160px;
+                margin-left: -88px;">
+                </div>
             </div>
         </div>
 
-    </section>
+
+        <section class="footer" class="mb-5">
+            <div class="container">
+                <img src="/assets/images/vector/circle-aqua.svg" alt="" class="footer-circle">
+                <div class="row d-flex justify-content-center" style="margin-bottom: 80px;">
+                    <div class="col-md-9">
+                        <div class="footer-area pt-5 pb-4">
+                            <div class="row justify-content-center">
+                                <div class="col-md-7 mr-5">
+                                    <h2>Form better relationships with everyone</h2>
+                                    <p>Start your free 14 days trial.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="submit">Try it for free</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row d-flex justify-content-center mt-5">
+                    <div class="col-md-9 col-xs-12">
+                        <div class="footer-desc-list">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-3 col-md-3 col-xs-12 ">
+                                    <h4 class="mb-4">Relationz</h4>
+                                    <p>Product Tour</p>
+                                    <p>Pricing</p>
+                                    <p>Founding Members</p>
+                                    <p>Case Studies</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-xs-12">
+                                    <h4 class="mb-4">Company</h4>
+                                    <p>Blog</p>
+                                    <p>Career</p>
+                                    <p>Privacy</p>
+                                    <p>About</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-xs-12">
+                                    <h4 class="mb-4">Support</h4>
+                                    <p>Documentation</p>
+                                    <p>Security</p>
+                                    <p>Mobility Guide</p>
+                                    <p>FAQs</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-xs-12">
+                                    <h4 class="mb-4">Legal</h4>
+                                    <p>Terms of Service</p>
+                                    <p>Privacy Policy</p>
+                                    <p>Coockie Information</p>
+                                    <p>GDPR Commitment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright  mt-5 mb-5">
+                    <h4 class="d-flex justify-content-center">Relationz</h4>
+                    <p class="d-flex justify-content-center mt-4 mb-5">Copyright © 2010 - 2019 Relationz Ltd. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </section>
+        <img src="/assets/images/vector/half-orange-circle.svg" alt="" class="footer-half-circle">
     </div>
 </body>
 

@@ -25,6 +25,9 @@
 
 body {
   background-color: white;
+  overflow-x: hidden;
+  height: 100%;
+  max-height: 100%;
 }
 
 h1 {
@@ -77,12 +80,6 @@ p {
 
 .container-fluid {
   width: 998px;
-}
-
-@media (max-width: 425px) {
-  .container-fluid {
-    width: auto;
-  }
 }
 
 .navbar-brand {
@@ -474,6 +471,14 @@ p {
   color: rgba(115, 115, 141, 0.8);
 }
 
+.ourteam .mobile-grid {
+  display: none;
+}
+
+.ourteam .mobile-grid2 {
+  display: none;
+}
+
 .ourteam .ourteam-area {
   margin-top: -50px;
   width: 501.77px;
@@ -494,5 +499,56 @@ p {
   line-height: 150%;
   text-align: center;
   color: #73738D;
+}
+
+.footer .footer-circle {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 100px;
+}
+
+.footer .footer-area {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+          box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+  border-radius: 8.31667px;
+}
+
+.footer .footer-area p {
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 150%;
+  color: #73738D;
+}
+
+.footer .footer-area button {
+  background: #26C296;
+  border-radius: 33.9597px;
+  border: 0;
+  width: 155.94px;
+  height: 41.58px;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.0889px;
+  line-height: 13px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.footer .footer-desc p {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.0889px;
+  line-height: 13px;
+  color: #73738D;
+}
+
+.footer-half-circle {
+  float: right;
+  margin-top: -250px;
 }
 /*# sourceMappingURL=style.css.map */
