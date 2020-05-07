@@ -495,4 +495,32 @@ p {
   text-align: center;
   color: #73738D;
 }
+
+.footer .footer-circle {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 100px;
+}
+
+.footer .footer-area {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+          box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+  border-radius: 8.31667px;
+}
+
+.footer .footer-area button {
+  background: #26C296;
+  border-radius: 33.9597px;
+  border: 0;
+  width: 155.94px;
+  height: 41.58px;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.0889px;
+  line-height: 13px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */
