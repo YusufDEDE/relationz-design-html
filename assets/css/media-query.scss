@@ -1,3 +1,11 @@
+@media (max-width: 414px) {
+  .welcome-page {
+    span {
+      font-size: 11px;
+    }
+  }
+}
+
 @media (max-width: 425px) {
   html {
     width: auto !important;
@@ -144,7 +152,25 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+  .welcome-page {
+    #welcome-page-form {
+      button {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+
+    span {
+      font-size: 8.5px;
+
+      i {
+        margin-left: 0 !important;
+      }
+    }
+  }
+
   .follow-up {
     p {
       width: 100%;
@@ -162,6 +188,117 @@
   .remembers {
     .remembersDesc {
       width: 100%;
+    }
+
+    #checkbox-remembers {
+      td {
+        span {
+          font-size: 7.9px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .stay-connected {
+    .star-image {
+      margin-top: 0 !important;
+      justify-content: flex-end !important;
+    }
+
+    .mini-profile {
+      display: flex;
+    }
+
+    .send-connect {
+      p {
+        width: 200px;
+      }
+    }
+
+    .check {
+      td {
+        span {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  .ourteam {
+    h2 {
+      text-align: center;
+    }
+
+    .web-grid {
+      display: none;
+    }
+
+    p {
+      width: 100% !important;
+    }
+
+    .mobile-grid {
+      display: contents;
+
+      .row-2-1png {
+        img {
+          margin-left: -16px;
+        }
+      }
+
+      .row-2-2png {
+        img {
+          margin-top: -83px;
+          padding-left: 0px;
+        }
+      }
+
+      .row-2-3png {
+        img {
+          margin-bottom: 40px;
+          margin-left: -6px;
+        }
+      }
+
+      .row-2-4png {
+        img {
+          margin-top: -82px;
+          margin-right: -8px;
+        }
+      }
+
+      .row-2-5png {
+        img {
+          margin-right: -18px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 40px;
+
+    .footer-circle {
+      margin-left: -34px;
+    }
+
+    .col-md-7 {
+      h2 {
+        margin-left: 30px;
+      }
+
+      p {
+        margin-left: 30px;
+      }
+    }
+
+    button {
+      margin-left: 30px;
+    }
+
+    .footer-desc-list {
+      margin-left: 40px;
     }
   }
 }

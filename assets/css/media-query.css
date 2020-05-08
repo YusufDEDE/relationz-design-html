@@ -1,3 +1,9 @@
+@media (max-width: 414px) {
+  .welcome-page span {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 425px) {
   html {
     width: auto !important;
@@ -94,7 +100,20 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+  .welcome-page #welcome-page-form button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .welcome-page span {
+    font-size: 8.5px;
+  }
+  .welcome-page span i {
+    margin-left: 0 !important;
+  }
   .follow-up p {
     width: 100%;
   }
@@ -103,6 +122,75 @@
   }
   .remembers .remembersDesc {
     width: 100%;
+  }
+  .remembers #checkbox-remembers td span {
+    font-size: 7.9px;
+    margin-right: 0;
+  }
+  .stay-connected .star-image {
+    margin-top: 0 !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .stay-connected .mini-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .stay-connected .send-connect p {
+    width: 200px;
+  }
+  .stay-connected .check td span {
+    margin-right: 0px;
+  }
+  .ourteam h2 {
+    text-align: center;
+  }
+  .ourteam .web-grid {
+    display: none;
+  }
+  .ourteam p {
+    width: 100% !important;
+  }
+  .ourteam .mobile-grid {
+    display: contents;
+  }
+  .ourteam .mobile-grid .row-2-1png img {
+    margin-left: -16px;
+  }
+  .ourteam .mobile-grid .row-2-2png img {
+    margin-top: -83px;
+    padding-left: 0px;
+  }
+  .ourteam .mobile-grid .row-2-3png img {
+    margin-bottom: 40px;
+    margin-left: -6px;
+  }
+  .ourteam .mobile-grid .row-2-4png img {
+    margin-top: -82px;
+    margin-right: -8px;
+  }
+  .ourteam .mobile-grid .row-2-5png img {
+    margin-right: -18px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .footer .footer-circle {
+    margin-left: -34px;
+  }
+  .footer .col-md-7 h2 {
+    margin-left: 30px;
+  }
+  .footer .col-md-7 p {
+    margin-left: 30px;
+  }
+  .footer button {
+    margin-left: 30px;
+  }
+  .footer .footer-desc-list {
+    margin-left: 40px;
   }
 }
 /*# sourceMappingURL=media-query.css.map */
